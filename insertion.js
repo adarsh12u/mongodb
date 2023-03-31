@@ -13,13 +13,12 @@
 
 // }
 // insert();
+// how to insert an data in database;
+// const dbbase = require('./mongodb');
 
-const dbbase = require('./mongodb');
-
-const insert = async() =>{
-    const db = await dbbase();
-    const result = await db.find().toArray();
-    console.log(result);
-    console.warn("adarsh gurjar");
-}
-insert();
+// const inserts = async() =>{
+//     const db = await dbbase();
+//     const result = db.insertOne({name:'lisons',class:'loda lussun',branch:'computer science'})
+   
+// }
+// inserts();
